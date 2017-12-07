@@ -2,14 +2,65 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Catch Flights Not Feels </title>
-  
-    <link rel="stylesheet" type="text/css" href="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="javascript.js"></script>
+	
+	
+	<title> Travel Blog </title>
+	
+	
   </head>
 
-  <body>
+
+ <body>
+  
+	<header class= "header">
+	
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+	
+<!--nav>
+	<div class="toggle">
+		<-- <i class="fa fa-bars" aria-hidden="true"></i>
+	</div>
+  <ul class="menu-titles">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav> -->
+	
+	
+	<div class="banner">
+		<img class="banner-image" src="coverphoto.jpg">
+	</div>
+	
+	
+<h1> 1. </h1>
+<p>Do NOT use large fixed width elements - For example, if an image is displayed at a width wider than the viewport it can cause the viewport to scroll horizontally. Remember to adjust this content to fit within the width of the viewport.</P>
+</br>
+<!--<img src="coverphoto.jpg"-->
+<h1> 2. </h1> 
+<p>Do NOT let the content rely on a particular viewport width to render well - Since screen dimensions and width in CSS pixels vary widely between devices, content should not rely on a particular viewport width to render well.</p>
+
+3. Use CSS media queries to apply different styling for small and large screens - Setting large absolute CSS widths for page elements will cause the element to be too wide for the viewport on a smaller device. Instead, consider using relative width values, such as width: 100%. Also, be careful of using large absolute positioning values. It may cause the element to fall outside the viewport on small devices.</p>
 
 
-    <script type="text/javascript" src=""></script>
+
+    
   </body>
 </html>
