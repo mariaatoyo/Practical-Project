@@ -1,28 +1,19 @@
-/*img, embed, object, video {
-	max-width: 100%;
-}*/
-
-
-body { 
-background-color: white;
-}
-
-/*@media screen and(min-width (max-width: 00px) {
-	body {background-color: red; }
-}
-*/
-			/* Mobile Size*/
+/*anything that affects the whole page e.g. * {},  body {}*/
+		
+/*mobile sizing*/		
+		
+		/* Mobile Size*/
 @media screen  and (max-width: 599px){
 	body {background-color: pink;}
 	.sidenav { 
 	display: none}
 }
-	
 
-  
 
-}
-					/* Tablet Size */
+
+
+/*tablets and large mobile devices sizing*/
+
 @media screen and (min-width: 600px) and (max-width: 1199px){
 	.sidenav {
 		display: none;
@@ -36,6 +27,9 @@ background-color: white;
 }
 
 
+
+/*desktop sizing*/
+
 @media screen and (min-width:1200px){
 	.sidenav { 
 		display: none;
@@ -48,10 +42,10 @@ closebtn {
 	}
 }
 
-}
 
 
 
+/*things that stay the same on multiple pages e.g. nav, footer, font*/
 .sidenav {
     height: 100%;
     width: 0;
@@ -91,23 +85,8 @@ closebtn {
     padding: 16px;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 
-
-
-
-
-
-
-
-
-@media screen and (min-width: 600px) {
-	body {background-color: white; }
-}
 
 .banner {
 	width: 100%;
@@ -138,11 +117,12 @@ ul li:hover {
 	background: #c0c5ce;
 }
 
+.pull-right{
+	float: right;
+}
 
+								/* FONT Calibri*/
 
-
-
-										/* FONT Calibri*/
 h1 {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	font-size: 24px;
@@ -191,3 +171,4 @@ pre {
 ul {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
+/*stuff page specific*/
