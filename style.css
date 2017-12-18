@@ -48,6 +48,10 @@ closebtn {
 
 
 /*things that stay the same on multiple pages e.g. nav, footer, font*/
+nav {
+	margin: 5px;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -130,24 +134,23 @@ closebtn {
 	background: #4f5b66
 }
 
-.banner > .banner-image {
+.banner-image {
 	width: 100%;
-	display: block;
+	display: block
 }
 
-nav {
-	width: 100%;
-}
+
 
 .menu-titles {
 	width: 80%
-	margin: auto;
+	margin: 0% auto;
 	padding: 0;
 }
 ul li {
-	padding: 20px;
+	padding: 10px;
 	list-style: none;
 	display: inline-block;
+	margin: auto;
 }
 ul li:hover {
 	background: #c0c5ce;
