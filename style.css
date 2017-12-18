@@ -58,7 +58,7 @@ closebtn {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .sidenav a {
@@ -84,7 +84,7 @@ closebtn {
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding: 5px;
 }
 
 
@@ -95,8 +95,8 @@ closebtn {
   width: 15px;
   text-align: left;
   text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 25%;
+  margin: 2.5px;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -136,13 +136,12 @@ closebtn {
 }
 
 nav {
-	width 100%;
-
+	width: 100%;
 }
 
 .menu-titles {
 	width: 80%
-	margin: 0 auto;
+	margin: auto;
 	padding: 0;
 }
 ul li {
