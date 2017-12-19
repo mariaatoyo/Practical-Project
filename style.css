@@ -5,8 +5,6 @@
 		/* Mobile Size*/
 @media screen  and (max-width: 599px){
 	body {background-color: pink;}
-	.sidenav { 
-	display: none}
 }
 
 
@@ -15,6 +13,7 @@
 /*tablets and large mobile devices sizing*/
 
 @media screen and (min-width: 600px) and (max-width: 1199px){
+	body {background-color: #FFE4C4;}
 	.sidenav {
 		display: none;
 		float: right;
@@ -48,6 +47,8 @@ closebtn {
 	.main-titles {
 		display: none;
 	}
+	body {background-image: url("background.jpg");
+	background-repeat: repeat-x;}
 }
 
 
@@ -55,7 +56,7 @@ closebtn {
 
 /*things that stay the same on multiple pages e.g. nav, footer, font*/
 nav {
-	margin: 5px;
+	margin: 10px;
 	font-size:17px;
 }
 
@@ -139,7 +140,8 @@ nav {
 .banner {
 	width: 100%;
 	display: block;
-	background: #4f5b66
+	background: #330570
+	
 }
 
 .banner-image {
@@ -151,19 +153,22 @@ nav {
 
 .menu-titles {
 	width: 80%
-	margin: 0% auto;
+	margin: auto;
 	padding: 0;
 	font-size:25px;
 	cursor:pointer;
+	color: yellow;
 }
 ul li {
 	padding: 10px;
 	list-style: none;
 	display: inline-block;
 	margin: auto;
+	color: yellow;
 }
 ul li:hover {
-	background: #c0c5ce;
+	background: #A668D5;
+	
 }
 
 .pull-right{
@@ -174,10 +179,6 @@ ul li:hover {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .search {
   width: 100%;
@@ -187,25 +188,25 @@ body{
 .searchTerm {
   float: left;
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid #7109AA;
   padding: 5px;
   height: 20px;
   border-radius: 5px;
   outline: none;
-  color: #9DBFAF;
+  color: green;
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: #7109AA;
 }
 
 .searchButton {
   position: absolute;  
-  right: -50px;
+  right: 10px;
   width: 40px;
   height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  border: 1px solid #7109AA;
+  background: #7109AA;
   text-align: center;
   color: #fff;
   border-radius: 5px;
@@ -215,7 +216,7 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
+  width: 15%;
   position: absolute;
   top: 6%;
   left: 50%;
@@ -223,7 +224,17 @@ body{
 }
 
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.flex-container > div {
+  width: 100px;
+  margin: 50px;
+  text-align: center;
+  line-height: 75px;
+}
 
 
 								/* FONT Calibri*/

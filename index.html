@@ -6,8 +6,8 @@
      
     <link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="javascript.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<title> Travel Blog </title>
 	
 	
@@ -19,7 +19,7 @@
 	
 	
 	<nav>
-  <div>
+  <div class="flex">
   <ul class="pull-right" > 	
 	<li class="menu-titles"> <id="main"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span></li>
     <li><a href="#">Home</a></li>
@@ -27,7 +27,7 @@
     <li><a href="#">Contact</a></li>
   </ul>
   </div>
-  <div> 
+  <div class="flex"> 
   <ul class="pull-left">
 	<li><a href="#" class="fa fa-facebook"></a></li>
 	<li><a href="https://twitter.com/mariaatoyo" class="fa fa-twitter"></a></li>
@@ -44,13 +44,11 @@
 </div>
 
 
-<div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+<div class="flex" class="wrap" class="search">
+       <input type="text" class="searchTerm" placeholder="What are you looking for?">
       <button type="submit" class="searchButton">
-        <i class="fa fa-search"></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
      </button>
-   </div>
 </div>
 </nav> 
 
