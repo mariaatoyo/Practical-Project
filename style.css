@@ -47,9 +47,7 @@ closebtn {
 	.main-titles {
 		display: none;
 	}
-	body {background-image: url("background.jpg");
-	background-repeat: repeat-x;}
-}
+	
 
 
 
@@ -138,9 +136,10 @@ nav {
 
 
 .banner {
+	font-family: 'Bangers', cursive;
 	width: 100%;
 	display: block;
-	background: #330570
+	background: #8C04A8
 	
 }
 
@@ -152,12 +151,13 @@ nav {
 
 
 .menu-titles {
+	font-family: 'Rubik Mono One', sans-serif;
 	width: 80%
 	margin: auto;
 	padding: 0;
 	font-size:25px;
 	cursor:pointer;
-	color: yellow;
+	: yellow;
 }
 ul li {
 	padding: 10px;
@@ -201,7 +201,7 @@ ul li:hover {
 }
 
 .searchButton {
-  position: absolute;  
+  position: absolute ;  
   right: 10px;
   width: 40px;
   height: 36px;
