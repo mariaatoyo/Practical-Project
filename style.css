@@ -1,23 +1,102 @@
-/**Responsive stylesheet code from http://www.w3schools.com Copyright 1999-2017 Refsnes Data*/
-/*mobile*/
-[class*="col-"] {
-    width: 100%;
+@media screen  and (max-width: 599px){
+	.sidenav {
+		height: 100%;
+		width: 0;
+		padding-top: 60px;
+	}
+
+	.menu-titles {
+		display: none;
+	}
+	#mySidenav {
+		display: none;
+	}
+
+	.sidenav {
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+
+	}
+
+	.sidenav a {
+	    padding: 8px 8px 8px 32px;
+	    text-decoration: none;
+	    font-size: 25px;
+	    color: #818181;
+	    display: block;
+	    transition: 0.3s;
+	}
+
+	.sidenav a:hover {
+	    color: #f1f1f1;
+	}
+
+	.sidenav .closebtn {
+	    position: absolute;
+	    top: 0;
+	    right: 25px;
+	    font-size: 36px;
+	    margin-left: 50px;
+	}
+
+	#mobile-menu {
+		font-size: 30px;
+		cursor: pointer;
+		float: left;
+	}
+
+	.social-media {
+		font-size: 1.8rem;
+
+	}
+
+	.social-media li {
+		padding: 0.5em;
+	}
+
+	.search {
+		margin-bottom: 1em;
+	}
+
+	.container {
+		flex-direction: column;
+	}
+
+
+	.container .banner img {
+		 width: 100%;
+	}
+
+	.container .banner .text {
+		z-index: 1;
+		font-size: 2em;
+	}
+
+	footer {
+		padding: 1em;
+	}
 }
 
-@media only screen and (min-width: 600px) {
+
+@media screen and (min-width: 600px) and (max-width: 1199px) {
     /* For tablets: */
-    .col-m-1 {width: 8.33%;}
-    .col-m-2 {width: 16.66%;}
-    .col-m-3 {width: 25%;}
-    .col-m-4 {width: 33.33%;}
-    .col-m-5 {width: 41.66%;}
-    .col-m-6 {width: 50%;}
-    .col-m-7 {width: 58.33%;}
-    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}
-    .col-m-10 {width: 83.33%;}
-    .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
+		nav {
+			width: 100%;
+		}
+
+		nav .nav-menu {
+			padding-right: 1em;
+		}
+
+		nav .nav-menu li a {
+			text-decoration: none;
+			text-transform: uppercase;
+		}
 
 		#menu-title {
 			display: inline-block;
@@ -27,54 +106,80 @@
 			display: none;
 		}
 
+		.sidenav {
+			display: none;
+		}
+
 		.container {
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 		}
 
 		.container .banner {
 			flex: 1;
-			text-align: center;
+			width: 100%;
+			height: 100%;
+			margin: 10px;
 		}
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width:1200px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+		nav {
+
+		}
 
 		#menu-title {
 			display: none;
+		}
+
+		.sidenav {
+				display: none;
 		}
 
 		.menu-titles {
 			display: inline;
 		}
 
+		.blog {
+
+		}
+
 		.container {
 			display: flex;
-			flex-direction: row;
+			flex-wrap: wrap;
 		}
 
 		.container .banner {
-			flex: 1;
+			width: 45%;
+			margin: 10px;
+			line-height: 75px;
 			text-align: center;
 		}
 
+		.container .banner img{
+			width: 90%;
+		}
+
+		.search {
+				float: right;
+				padding-right: 1em;
+		}
+
 		body {
-			max-width: 960px;
+			max-width: 1200px;
 			margin: auto;
 		}
+}
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+/**HEADER*/
+header {
+
 }
 
 /**NAVIGATION*/
@@ -87,56 +192,13 @@ nav ul li {
 	display: inline;
 }
 
-#mySidenav {
-	display: none;
-}
-
-.sidenav {
-	height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#mobile-menu {
-	font-size: 30px;
-	cursor: pointer;
-	float: left;
-}
-
-.social-media {
-	font-size: 1.8rem;
-}
-
 .social-media li {
-	padding: 0.5rem;
+	background-color: grey;
+}
+
+.social-media li a {
+	color: white;
+	text-decoration: none;
 }
 
 .search {
@@ -144,29 +206,27 @@ nav ul li {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+}
+
+.blog {
+	clear: both;
+	text-align: center;
 }
 
 .container {
 	display: flex;
-	flex-direction: column;
-}
-
-.container .banner {
-	flex: 1;
 	text-align: center;
 }
 
-.container .banner img {
-	z-index: -1;
-	 width: 100%;
+.container .banner {
+	text-align: center;
 }
 
 .container .banner .text {
 	font-weight: bolder;
 	text-transform:uppercase;
 	text-align: center;
-	z-index: 1;
-	font-size: 2em;
 }
 
 /**MISC.*/
@@ -182,6 +242,13 @@ nav ul li {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bolder;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 1em;
 }
 
 
