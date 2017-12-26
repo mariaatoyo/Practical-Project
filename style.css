@@ -1,3 +1,4 @@
+/* mobile screen*/
 @media screen  and (max-width: 599px){
 	.sidenav {
 		height: 100%;
@@ -45,13 +46,13 @@
 	}
 
 	#mobile-menu {
-		font-size: 30px;
+		font-size: 20px;
 		cursor: pointer;
 		float: left;
 	}
 
 	.social-media {
-		font-size: 1.8rem;
+		font-size: 1rem;
 
 	}
 
@@ -121,6 +122,42 @@
 			height: 100%;
 			margin: 10px;
 		}
+		#mySidenav {
+			display: none;
+		}
+
+		.sidenav {
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #111;
+			overflow-x: hidden;
+			transition: 0.5s;
+
+		}
+
+		.sidenav a {
+				padding: 8px 8px 8px 32px;
+				text-decoration: none;
+				font-size: 25px;
+				color: #818181;
+				display: block;
+				transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+				color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+				position: absolute;
+				top: 0;
+				right: 25px;
+				font-size: 36px;
+				margin-left: 50px;
+		}
+
 }
 
 @media screen and (min-width:1200px) {
@@ -192,14 +229,40 @@ nav ul li {
 	display: inline;
 }
 
-.social-media li {
-	background-color: grey;
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0.05px;
+  border-radius: 30%;
 }
 
-.social-media li a {
-	color: white;
-	text-decoration: none;
+.fa:hover {
+    opacity: 0.7;
 }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 
 .search {
 	clear: both;
@@ -227,6 +290,11 @@ nav ul li {
 	font-weight: bolder;
 	text-transform:uppercase;
 	text-align: center;
+}
+
+#into {
+	border: 1px;
+
 }
 
 /**MISC.*/
