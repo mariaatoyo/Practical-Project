@@ -14,3 +14,28 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
     document.body.style.backgroundColor = "white";
 }
+
+// GOOGLE MAPS
+	
+	function initMap(){
+		//Map options
+		var options = {
+			zoom:8,
+			 center:{lat:-8.7832,lng:-55.4915}
+		}
+		//New map
+		var map = new 
+		google.maps.Map(document.getElementById('map'),options);
+		
+		//MARKER NOT WORKING YET!!
+		var line = new google.maps.Polyline({
+          path: [{lat:13.7942,lng:88.8965}],
+		  icons: [{
+      icon: lineSymbol,
+      offset: '100%'
+    }],
+    map: map
+  });
+
+  animateCircle(line);
+	}
