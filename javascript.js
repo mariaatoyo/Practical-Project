@@ -8,7 +8,7 @@ function openNav() {
 }
 
 function closeNav() {
-	
+
 	document.getElementById("mySidenav").style.display = "none";
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
@@ -16,7 +16,7 @@ function closeNav() {
 }
 
 // GOOGLE MAPS
-	
+
 	function initMap(){
 		//Map options
 		var options = {
@@ -24,18 +24,13 @@ function closeNav() {
 			 center:{lat:-8.7832,lng:-55.4915}
 		}
 		//New map
-		var map = new 
+		var map = new
 		google.maps.Map(document.getElementById('map'),options);
-		
-		//MARKER NOT WORKING YET!!
-		var line = new google.maps.Polyline({
-          path: [{lat:13.7942,lng:88.8965}],
-		  icons: [{
-      icon: lineSymbol,
-      offset: '100%'
-    }],
-    map: map
-  });
 
-  animateCircle(line);
-	}
+		//MARKER
+		var marker = new google.maps.Marker({
+          position:{lat:13.7942,lng:-88.8965},
+					map:map
+		  });
+
+		}
