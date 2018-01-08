@@ -1,6 +1,5 @@
 @import "compass/css3";
 
-@import url(https://fonts.googleapis.com/css?family=Merriweather);
 $red: #e74c3c;
 
 *, 
@@ -9,26 +8,20 @@ $red: #e74c3c;
    @include box-sizing(border-box); 
 }
 
-html, body {
-  background: #f1f1f1;
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
-}
 
 h1 {
    text-align: center;
-   color: #a8a8a8;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
 
 form {
    max-width: 600px;
    text-align: center;
-   margin: 20px auto;
+   margin: 30px auto;
   
   input, textarea {
      border:0; outline:0;
-     padding: 1em;
+     padding: 3em;
      @include border-radius(8px);
      display: block;
      width: 100%;
