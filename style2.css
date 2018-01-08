@@ -9,7 +9,7 @@ $red: #e74c3c;
 }
 
 
-h1 {
+h1,p {
    text-align: center;
    @include text-shadow(1px 1px 0 rgba(white, 1));
 }
@@ -21,12 +21,11 @@ form {
   
   input, textarea {
      border:0; outline:0;
-     padding: 3em;
+     padding: 1em;
      @include border-radius(8px);
      display: block;
      width: 100%;
      margin-top: 1em;
-     font-family: 'Merriweather', sans-serif;
      @include box-shadow(0 1px 1px rgba(black, 0.1));
      resize: none;
     
