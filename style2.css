@@ -2,7 +2,7 @@
 
 $red: #e74c3c;
 
-*, 
+*,
 *:before, 
 *:after {
    @include box-sizing(border-box); 
