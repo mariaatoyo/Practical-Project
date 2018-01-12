@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Yantramanav');
 /* mobile screen*/
 @media screen  and (max-width: 599px){
 	.sidenav {
@@ -541,6 +542,12 @@ nav ul li {
 	font-family: 'Lobster', cursive;
 	font-size: 32px;
 
+}
+
+.post-sub-title{
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
 }
 
 .date{
