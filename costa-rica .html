@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- links to CSS, JS and font files -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4d_D_wLqOGQJ5LelWOSkiXqOTvgXK6HI&callback=initMap">
+    </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Yantramanav" rel="stylesheet">
+  <title> COSTA RICA </title>
+
+
+</head>
+
+<body>
+
+  <header>
+    <h1 class="accent-text">Catch Flights Not Feels</h1>
+  </header>
+
+  <nav class="col-m-12">
+    <div class="">
+      <ul class="pull-right nav-menu">
+        <li id="menu-title"><span id="mobile-menu" onclick="openNav()">&#9776; MENU</span></li>
+        <li class="menu-titles"><a href="index.html">Home</a></li>
+        <li class="menu-titles"><a href="about.html">About</a></li>
+        <li class="menu-titles"><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="">
+      <ul class="pull-left social-media">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="https://twitter.com/mariaatoyo" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.instagram.com/mariaatoyo/" class="fa fa-instagram"></a></li>
+        <li><a href="https://www.snapchat.com/add/mariaatoyo" class="fa fa-snapchat-ghost"></a></li>
+		
+      </ul>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+
+    <div class="search col-m-6">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+  
+  <p class="clearfix"><time datetime="27-09-2017" class="date">Wednesday, 27 September 2017</time></p>
+  
+  <h1 class="post-title"> 5am departures and 10 hour travel days </h1>
+  
+  <div class="post-content">
+	  <p>
+		The unglamarous side of traveling which no one tells you about on Instagram...
+	 </p>
+ 
+	 <p>
+		The 13 hour overnight buses, the 4am and 5am starts, the 10 hours spent on a minibus. All of which a lovely sunset picture on Instagram does not convey, although it does slightly compensate for said journeys.
+	 </p>
+ 
+	 <p>
+		I began writing this blog post at the most casual boarder crossing I have encountered thus far, and that's really saying something given our experience crossing from Guatemala and into El Salvador. We arrived by boat, nothing more than an old speed boat, maybe slightly bigger, with 15 plastic chairs bolted to it. Ya know the plastic chairs from primary school? Yeah those ones. Some locals helped us with our bags in exchange for a couple dollars and we waited. We filled in some immigration forms and handed our passports to Mario, our 10/10 tour leader, and we waited some more. Did I have to go in to the immigration 'office' to show someone my face and match it with my passport? No. Did they bother to search our bags for suspicious white powders? Also no. Did the 'office' resemble an abandoned warehouse which would probably be used for illegal raves in London? Yes. Yes it most certainly did.
+	 </p>
+ 
+	<div class="mobile-slideshow-container">
+		<div class="mySlides fade">
+		  <img src="image2.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="image3.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides fade">
+		  <img src="image4.jpg" style="width:100%">
+		</div>
+	</div>
+	<br>
+	<div class="mobile-dots" style="text-align:center">
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	  <span class="dot"></span> 
+	</div>
+
+<!--DESKTOP SLIDESHOW CONTAINER-->
+	<div class="desktop-slideshow-container">
+	  <div class="desktop-slides">
+		<img src="image2.jpg" style="width:100%">
+	  </div>
+
+	  <div class="desktop-slides">
+		<img src="image3.jpg" style="width:100%">
+	  </div>
+
+	  <div class="desktop-slides">
+		<img src="image4.jpg" style="width:100%">
+	  </div>
+		
+	  <a class="prev" onclick="plusSlides(-1)">❮</a>
+	  <a class="next" onclick="plusSlides(1)">❯</a>
+
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+
+	  <div class="row">
+		<div class="column">
+		  <img class="demo cursor" src="image2.jpg" style="width:100%" onclick="currentSlide(1)" alt="image2">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="image3.jpg" style="width:100%" onclick="currentSlide(2)" alt="image3">
+		</div>
+		<div class="column">
+		  <img class="demo cursor" src="image4.jpg" style="width:100%" onclick="currentSlide(3)" alt="image4">
+		</div>
+	  </div>
+	</div>
+	
+<!--TABLET SLIDESHOW CONTAINER-->
+	<div class="tablet-slideshow-container">
+		<div class="tablet-row">
+			<div class="tablet-column">
+				<img src="image2.jpg" alt="image2" style="width:100%" onclick="expandGallery(this);" />
+			</div>
+			<div class="tablet-column">
+				<img src="image3.jpg" alt="image3" style="width:100%" onclick="expandGallery(this);" />
+			</div>
+			<div class="tablet-column">
+				<img src="image4.jpg" alt="image4" style="width:100%" onclick="expandGallery(this);" />
+			</div>
+		</div>
+		<div class="tablet-container">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<img id="expandedImage" />
+			<div id="imageText"></div>
+		</div>
+	</div>
+ 
+ <p>
+It's just gone 10am and we've been traveling for 5 hours. We left our quirky eco resort located on the beach of El Cuco at 5am and headed for the El Salvadoran coast, where upon exit from the country we did have to show our faces in order to have our passports stamped, how civilised. We then hopped into the boat, pictured below, for a 2 hour ride over to Nicaragua. On most forms of transport I get awful motion sickness to the point where looking down at my phone to skip a song can make me feel ill. But speedboats? They're my JAM. I learnt in Koh Samui on a snorkelling day trip with over three hours worth of time spent on a speedboat that not only do I not get motion sickness, but I can even read on speedboats. 10 minutes into this 2 hour boat ride to Nicaragua and I'm munching some oat biscuits and reading about a couple who were engaged at 19, spent 16 years apart and are now re-kindling their love. What a lovely summer read (sorry to everyone in the UK hearing me use the word 'summer' but I'm still in 25+ degree weather).
+ </p>
+ 
+ <p>
+The following day was filled with sleep and sunny beaches after that lovely 4.30am alarm... lies. It was filled with a 5.50am alarm ready to leave the hotel at 6.30am to go sledging down an active volcano. Traveling is full of late nights, early mornings, busy and active days, like volcano hiking and then whizzing down to the bottom. The 45 minute hike was filled with nerves and jitters with every step closer to the summit. We were the first group of the day, that 5.50am alarm does have its perks, so we had no one to watch to see how dangerous this really was. Yes people have broken bones and yes one person is now paralysed from doing exactly what I just did today. But once we were doing it and realised that, actually, it's not that fast, it was full of fun and adrenaline with the standard 'I wanna go again' as soon as we reached the bottom. Mix together the fact that you can only do this at this exact location and it makes the exhaustion from previous early mornings and traveling fade to insignificance. We then jumped on a bus for 3 hours and headed to Granada, because traveling wouldn't be traveling without constantly being on the go and spending no more than 2 nights at any given location. And for that I love it. 
+ </p>
+
+ <p>
+Apologies it's taken me so long to blog but earthquakes, delayed planes, stressful hotel check-ins at 3am and mini breakdowns resulted in me needing to fully immerse myself on this tour and to just do me for a short while. And actually no, I'm not sorry at all for that. 
+ </p>
+
+<p>
+Love always, 
+Steph x 
+</p>
+</div>
+ <footer>
+      <p>&copy; 2017</p>
+  </footer>
+  <script src="javascript.js"></script>
+  </body>
+  </html>

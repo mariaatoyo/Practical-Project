@@ -27,11 +27,33 @@ function initMap(){
 	var map = new
 	google.maps.Map(document.getElementById('map'),options);
 
-	//MARKER
+	//MARKERS
 	var marker = new google.maps.Marker({
 	  position:{lat:13.7942,lng:-88.8965},
+			map:map,
+	  });
+	  		google.maps.event.addListener(marker, 'click', function () {
+  window.location.href="el-salvador.html";
+	  });
+	  
+	var marker = new google.maps.Marker({
+	  position:{lat:23.6345,lng:-102.5528},
 				map:map
 	  });
+	  google.maps.event.addListener(marker, 'click', function () {
+  window.location.href="mexico.html";
+	  });
+	  
+	var marker = new google.maps.Marker({
+	  position:{lat:9.7489,lng:-83.7534},
+				map:map
+	  });
+	  
+	var marker = new google.maps.Marker({
+	  position:{lat:9.1900,lng:-75.0152},
+				map:map
+	  });  
+  
 
 }
 

@@ -76,6 +76,8 @@
 	.container .banner .text {
 		z-index: 1;
 		font-size: 2em;
+
+		
 	}
 	
 	.post-content{
@@ -531,6 +533,7 @@ nav ul li {
 	font-weight: bolder;
 	text-transform:uppercase;
 	text-align: center;
+	font-family: 'Yantramanav', sans-serif !important;
 }
 
 .post-title {
