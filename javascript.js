@@ -21,7 +21,7 @@ function initMap(){
 	//Map options
 	var options = {
 		zoom:3,
-		 center:{lat:-8.7832,lng:-55.4915}
+		 center:{lat:-8.7830,lng:-55.4915}
 	}
 	//New map
 	var map = new
@@ -48,11 +48,17 @@ function initMap(){
 	  position:{lat:9.7489,lng:-83.7534},
 				map:map
 	  });
+	  google.maps.event.addListener(marker, 'click', function () {
+  window.location.href="costa-rica.html";
+	  });
 	  
 	var marker = new google.maps.Marker({
 	  position:{lat:9.1900,lng:-75.0152},
 				map:map
-	  });  
+	  }); 
+	  google.maps.event.addListener(marker, 'click', function () {
+  window.location.href="machu-pichu.html";
+	  });
   
 
 }
