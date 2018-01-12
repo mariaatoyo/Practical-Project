@@ -322,6 +322,7 @@
 
 	.menu-titles {
 		display: inline;
+		font-family: 'Lobster Two', cursive;
 	}
 
 	.blog {
@@ -546,13 +547,13 @@ nav ul li {
 
 .post-sub-title{
 	text-align: center;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster Two', cursive;
 	font-size: 25px;
 }
 
 .date{
 	font-size:16px;
-	font-family: 'Lobster', cursive ;
+	font-family: 'Lobster', cursive;
 }
 
 #into {
@@ -580,6 +581,9 @@ nav ul li {
 	#map {
 		height:400px;
 		width:100%;
+	}
+	.map{
+		font-family: 'Lobster Two', cursive;	
 	}
 footer {
 	text-align: center;
