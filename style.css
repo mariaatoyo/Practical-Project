@@ -78,135 +78,377 @@
 		font-size: 2em;
 	}
 	
+	.post-content{
+	text-align: justify;
+	padding: 1em;
+
+}
+.post-content p{	
+	font-family: 'Yantramanav', sans-serif !important;
+	font-size: 16px;
+	font-weight: 550;
+}
+.desktop-slideshow-container {
+	display: none;
+}
+
+
+.tablet-slideshow-container {
+	display: none;
+}
+
+.mobile-slideshow-container {
+	display: block;
+}
+
+.mobile-slideshow-container .mySlides {display: none;}
+.mobile-slideshow-container .mySlides img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.slideshow-container .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
 	footer {
 		padding: 1em;
 	}
+
 }
 
 
 @media screen and (min-width: 600px) and (max-width: 1199px) {
     /* For tablets: */
-		nav {
-			width: 100%;
-		}
+	nav {
+		width: 100%;
+	}
 
-		nav .nav-menu {
-			padding-right: 1em;
-		}
+	nav .nav-menu {
+		padding-right: 1em;
+	}
 
-		nav .nav-menu li a {
-			text-decoration: none;
-			text-transform: uppercase;
-		}
+	nav .nav-menu li a {
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 
-		#menu-title {
-			display: inline-block;
-		}
+	#menu-title {
+		display: inline-block;
+	}
 
-		.menu-titles {
-			display: none;
-		}
+	.menu-titles {
+		display: none;
+	}
 
-		.sidenav {
-			display: none;
-		}
+	.sidenav {
+		display: none;
+	}
 
-		.container {
-			display: flex;
-			flex-direction: column;
-		}
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
 
-		.container .banner {
-			flex: 1;
-			width: 100%;
-			height: 100%;
-			margin: 10px;
-		}
-		#mySidenav {
-			display: none;
-		}
+	.container .banner {
+		flex: 1;
+		width: 100%;
+		height: 100%;
+		margin: 10px;
+	}
+	#mySidenav {
+		display: none;
+	}
 
-		.sidenav {
-			position: fixed;
-			z-index: 1;
-			top: 0;
-			left: 0;
-			background-color: #111;
-			overflow-x: hidden;
-			transition: 0.5s;
+	.sidenav {
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		transition: 0.5s;
 
-		}
+	}
 
-		.sidenav a {
-				padding: 8px 8px 8px 32px;
-				text-decoration: none;
-				font-size: 25px;
-				color: #818181;
-				display: block;
-				transition: 0.3s;
-		}
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+		transition: 0.3s;
+	}
 
-		.sidenav a:hover {
-				color: #f1f1f1;
-		}
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
 
-		.sidenav .closebtn {
-				position: absolute;
-				top: 0;
-				right: 25px;
-				font-size: 36px;
-				margin-left: 50px;
-		}
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+		
+	.previous, .next {
+		display: none;
+	}
+
+	.mobile-slideshow-container {
+		display: none;
+	}
+	
+	.tablet-slideshow-container {
+		display: block;
+	}
+	
+	.desktop-slideshow-container {
+		display: none;
+	}
+	
+	/*tablet slideshow*/
+	.tablet-column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.tablet-column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.tablet-column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.tablet-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.tablet-container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.expandedImage {
+	width: 100%;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
 
 }
 
 @media screen and (min-width:1200px) {
     /* For desktop: */
-		nav {
+	nav {
 
-		}
+	}
 
-		#menu-title {
-			display: none;
-		}
+	#menu-title {
+		display: none;
+	}
 
-		.sidenav {
-				display: none;
-		}
+	.sidenav {
+		display: none;
+	}
 
-		.menu-titles {
-			display: inline;
-		}
+	.menu-titles {
+		display: inline;
+	}
 
-		.blog {
+	.blog {
 
-		}
+	}
 
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-		}
+	.container {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
-		.container .banner {
-			width: 45%;
-			margin: 10px;
-			line-height: 75px;
-			text-align: center;
-		}
+	.container .banner {
+		width: 45%;
+		margin: 10px;
+		line-height: 75px;
+		text-align: center;
+	}
 
-		.container .banner img{
-			width: 90%;
-		}
+	.container .banner img{
+		width: 90%;
+	}
 
-		.search {
-				float: right;
-				padding-right: 1em;
-		}
+	.search {
+		float: right;
+		padding-right: 1em;
+	}
 
-		body {
-			max-width: 1200px;
-			margin: auto;
-		}
+	body {
+		max-width: 1200px;
+		margin: auto;
+	}
+		
+	.mobile-slideshow-container {
+		display: none;
+	}
+	
+	.tablet-slideshow-container {
+		display: none;
+	}
+	
+	.mobile-dots {
+		display: none;
+	}
+	
+	.desktop-slideshow-container img {
+		vertical-align: middle;
+	}
+
+	/* Position the image container (needed to position the left and right arrows) */
+	.desktop-slideshow-container {
+		position: relative;
+	}
+
+	/* Hide the images by default */
+	.desktop-slideshow-container .mySlides {
+		display: none;
+	}
+
+	/* Add a pointer when hovering over the thumbnail images */
+	.cursor {
+		cursor: pointer;
+	}
+
+	/* Next & previous buttons */
+	.prev,
+	.next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 40%;
+	  width: auto;
+	  padding: 16px;
+	  margin-top: -50px;
+	  color: white;
+	  font-weight: bold;
+	  font-size: 20px;
+	  border-radius: 0 3px 3px 0;
+	  user-select: none;
+	  -webkit-user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover,
+	.next:hover {
+	  background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	/* Number text (1/3 etc) */
+	.numbertext {
+	  color: #f2f2f2;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	/* Container for image text */
+	.caption-container {
+	  text-align: center;
+	  background-color: #222;
+	  padding: 2px 16px;
+	  color: white;
+	}
+
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Six columns side by side */
+	.column {
+	  float: left;
+	  width: 16.66%;
+	}
+
+	/* Add a transparency effect for thumnbail images */
+	.demo {
+	  opacity: 0.6;
+	}
+
+	.active,
+	.demo:hover {
+	  opacity: 1;
+	}
 }
 
 body {
@@ -291,6 +533,18 @@ nav ul li {
 	text-align: center;
 }
 
+.post-title {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+
+}
+
+.date{
+	font-size:16px;
+	font-family: 'Lobster', cursive ;
+}
+
 #into {
 	border: 1px;
 
@@ -302,6 +556,10 @@ nav ul li {
 
 .pull-left {
 	float: left;
+}
+
+.clearfix {
+	clear: both;
 }
 
 .accent-text {
@@ -349,6 +607,7 @@ p {
 	font-weight: 400;
 	line-height: 20px;
 	max-width: 100%
+	
 }
 blockquote {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -372,3 +631,22 @@ ul {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 /*stuff page specific*/
+
+/*animation*/
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
