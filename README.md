@@ -1,10 +1,20 @@
-# Practical-Project
-Assignment 2 - IMAT34209
+#Practical-Project
+##Assignment 2 - IMAT34209
 
-http://stephfliessolo.blogspot.co.uk/?m=1 - page content
+The content used in this assignment is from a [blogspot] page (http://stephfliessolo.blogspot.co.uk/?m=1)
 
-https://www.dafont.com/ - fonts 
+Fonts from [googleFonts] (https://fonts.google.com/)
 
+###Images all from [blogspot] page (http://stephfliessolo.blogspot.co.uk/?m=1)
+resized with photoshop
+- image1
+- image2
+- image3
+- image4
+- image5
+- image6
+- image7
+- image8
 https://www.youtube.com/watch?v=XZsuI5wyRzs
 
 https://nomadicboys.com/
