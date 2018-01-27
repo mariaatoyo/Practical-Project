@@ -1,8 +1,9 @@
-#Practical-Project
+
+#Practical Project
 ##Assignment 2 - IMAT34209
 
 A website using HTML, CSS and JavaScript. This is a travel blog. The content taken from a 
-a [blogspot] page. (http://stephfliessolo.blogspot.co.uk/?m=1)
+a [blogspot](http://stephfliessolo.blogspot.co.uk/?m=1)
  
 
 Fonts from [googleFonts] (https://fonts.google.com/)
