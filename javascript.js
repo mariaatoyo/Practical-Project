@@ -32,6 +32,7 @@ function initMap(){
 	  position:{lat:13.7942,lng:-88.8965},
 			map:map,
 	  });
+				//Markers clickable and linked to pages
 	  		google.maps.event.addListener(marker, 'click', function () {
   window.location.href="el-salvador.html";
 	  });
@@ -81,7 +82,7 @@ function showSlides() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 2000); // Changes image every 2 seconds
 }
 
 //TABLET SLIDESHOW
