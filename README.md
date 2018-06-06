@@ -3,11 +3,20 @@
 A website using HTML, CSS and JavaScript. This is a travel blog. The content taken from a 
 a [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1)
 
+Overall visually it looks basic, but the code is pretty good.
+
+Found it difficult to make the website look apealing without using external sources such
+as Webkit and Bootstrap. But happy i learnt to make a webiste without them. 
+
 ### References
 
 Fonts from [googleFonts](https://fonts.google.com/)
 
-Images all from [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1) page.
+[Google maps API](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=550s)
+
+[Contact us page](https://codepen.io/wgnr/pen/iwDIh)
+
+Images from [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1) page.
 Resized with photoshop.
 - image1
 - image2
@@ -17,11 +26,10 @@ Resized with photoshop.
 - image6
 - image7
 - image8
+
+- favicon.png [Icon finder] (https://www.iconfinder.com/icons/373093/airport_destination_fare_journey_map_ticket_travel_icon)
+
 Can be found in the 'images' folder. 
-
-[google maps API](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=550s)
-
-[Contact us page](https://codepen.io/wgnr/pen/iwDIh)
 
 ### SLIDESHOW GALLERIES
 
