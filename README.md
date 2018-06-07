@@ -9,7 +9,8 @@ Found it difficult to make the website look apealing without using external sour
 as Webkit and Bootstrap. But happy i learnt to make a webiste without them. 
 
 ### The Four Principles of Web Accessibility
-**Perceivable,** **Operable,** **Understandable,** **Robust** 
+**Perceivable,** **Operable,** **Understandable,** **Robust**
+ 
 These principles build the foundations of web accessibility and the beginning of WCAG 2.0.
 
 **Perceivable -** refers to how parts must be clearly available. All non-text content on a web page must be available to the user in a way that is visible to them. 
