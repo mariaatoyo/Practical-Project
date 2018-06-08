@@ -5,8 +5,8 @@ a [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1)
 
 Overall visually it looks basic, but i think the code is pretty good.
 
-Found it difficult to make the website look apealing without using external sources such
-as Webkit and Bootstrap. But happy i learnt to make a webiste without them. 
+Found it difficult to make the website look appealing without using external sources such
+as Webkit and Bootstrap. But happy i learnt to make a website without them. 
 
 ### The Four Principles of Web Accessibility
 **Perceivable,** **Operable,** **Understandable,** **Robust**
@@ -19,7 +19,7 @@ if they cannot hear audio, then it must be readable.
 
 **Operable -** page features should function in such a way that is possible for all users, so they must be operable. 
 A guideline for this suggests that everything must be keyboard accessible. Meaning that activation a deactivation is included so that keyboard users do not become trapped. 
-But mouse users should also not be hindered by this. they should still receive full mouse support and special functionalities. But it should be possible for users not have 
+But mouse users should also not be hindered by this. They should still receive full mouse support and special functionalities. But it should be possible for users not have 
 to depend on this. Another principle of operable is that operations that are not real time cannot be timed, unless the operation time is longer than twenty hours, then the 
 user should be an option to adjust it, turn it off or extend the time. This principle also refers to preventing seizures and also navigable.
 
@@ -64,7 +64,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
 
 
-### Webistes i looked at as research before starting this assignment 
+### Websites i looked at as research before starting this assignment 
 
 https://nomadicboys.com/
 
