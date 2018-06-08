@@ -586,11 +586,14 @@ nav ul li {
 		height:400px;
 		width:100%;
 	}
+	
+	
 footer {
 	text-align: center;
 	color: white;
 	background-color: black;
 	padding: 1em;
+	
 }
 
 
@@ -645,7 +648,10 @@ pre {
 }
 ul {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
+
 /*stuff page specific*/
 
 /*animation*/
@@ -666,3 +672,10 @@ ul {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+
+
+
+
+
