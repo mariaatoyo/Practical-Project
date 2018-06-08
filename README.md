@@ -1,7 +1,7 @@
 
 # Practical Project, Assignment 2 - IMAT34209
 A website using HTML, CSS and JavaScript. This is a travel blog. The content is taken from a 
-a [Blogspot] .(http://stephfliessolo.blogspot.co.uk/?m=1)
+a [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1)
 
 Overall visually it looks basic, but i think the code is pretty good.
 
@@ -69,4 +69,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
 https://nomadicboys.com/
 
 http://www.ourawesomeplanet.com/#fScpBL5tL4IqA0G1.97
+
+http://green-beast.com/blog/?p=261
 
