@@ -1,9 +1,9 @@
 
 # Practical Project, Assignment 2 - IMAT34209
 A website using HTML, CSS and JavaScript. This is a travel blog. The content is taken from a 
-a [Blogspot](http://stephfliessolo.blogspot.co.uk/?m=1)
+a [Blogspot].(http://stephfliessolo.blogspot.co.uk/?m=1)
 
-Overall visually it looks basic, but the code is pretty good.
+Overall visually it looks basic, but i think the code is pretty good.
 
 Found it difficult to make the website look apealing without using external sources such
 as Webkit and Bootstrap. But happy i learnt to make a webiste without them. 
@@ -30,6 +30,7 @@ For example, documents must be readable, wat happens on the page should be expec
 And even with older versions of HTML closing tags are still needed for the mark-up to be forward compatible.
 
 ### References
+Unfortunately I lost the reference for the contact page. The form or stylesheet is not my own code!!!
 
 Fonts from [googleFonts](https://fonts.google.com/)
 
@@ -62,10 +63,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery
 **DESKTOP**
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
 
+
 ### Webistes i looked at as research before starting this assignment 
 
 https://nomadicboys.com/
 
 http://www.ourawesomeplanet.com/#fScpBL5tL4IqA0G1.97
 
-http://colorschemedesigner.com/csd-3.5/ - colour scheme
